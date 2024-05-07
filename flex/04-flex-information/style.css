@@ -18,17 +18,6 @@ img {
 
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 52px;
-}
-
-.items p {
-  text-align: center;
-}
-
-
 /* do not edit this footer */
 .footer {
   position: fixed;
@@ -40,4 +29,18 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.items {
+  max-width: 200px;
+}
+
+.items p {
+  text-align: center;
 }
