@@ -48,6 +48,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  /* my own additions*/
+  flex-shrink: 0;
 }
 
 button {
@@ -66,4 +68,29 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  display: flex;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+
+
+.header {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  padding-bottom: 10px;
+
 }
